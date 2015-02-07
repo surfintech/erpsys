@@ -6,17 +6,16 @@
     "authors": [
         {
             "name": "Jack Slocum",
-            "email": "jack@",
             "role": "Co-founder"
         },
         {
             "name": "Rob Winkky",
-            "email": "rob@",
             "role": "Co-founder"
         }
     ],
 	"require": {
-		"laravel/framework": "5.0.*"
+		"laravel/framework": "5.0.*",
+		"barryvdh/laravel-ide-helper": "~2.0"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
@@ -42,6 +41,7 @@
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
+			"php artisan ide-helper:generate",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [
