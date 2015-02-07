@@ -1,9 +1,20 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
-	"license": "MIT",
+	"name": "surfintech/erpsys",
+	"description": "Erpsys",
+	"keywords": ["surface finish","erp", "laravel"],
 	"type": "project",
+    "authors": [
+        {
+            "name": "Jack Slocum",
+            "email": "jack@",
+            "role": "Co-founder"
+        },
+        {
+            "name": "Rob Winkky",
+            "email": "rob@",
+            "role": "Co-founder"
+        }
+    ],
 	"require": {
 		"laravel/framework": "5.0.*"
 	},
