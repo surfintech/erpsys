@@ -5,7 +5,7 @@
 .env.php
 Thumbs.db
 /vendor
-artisan
+
 
 ### PhpStorm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
